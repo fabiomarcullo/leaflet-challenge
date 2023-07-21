@@ -4,7 +4,7 @@ The United States Geological Survey, or USGS for short, is responsible for provi
 The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. In this challenge, you have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
 ## Deployment Link
-![USGS Earthquakes Data Map](https://Fabio)
+[USGS Earthquakes Data Map](https://fabiomarcullo.github.io/leaflet-challenge/)
 
 ## Part 1: Create the Earthquake Visualization
 ### Get the Data Set
@@ -16,21 +16,20 @@ Create a map using Leaflet that plots all of the earthquakes from the data set b
 - The data markers reflect the magnitude of the earthquake by their size and and depth of the earth quake by color
 - Earthquakes with higher magnitudes appear larger and earthquakes with greater depth should appear darker in color
 - Popups that provide additional information about the earthquake were included when a marker is clicked
-- A legend was created to provide context for the map data
-<p align="center">
-  <img src="Image">
-</p>
+- A legend was created to provide context for the map data.
+  
+![image](https://github.com/fabiomarcullo/leaflet-challenge/blob/main/images/Level-1.png)
 
-## Level-2: More Data
+
+## Part 2: Gather and Plot More Data (Optional with no extra points earning)
 Plot a second data set on the map above to illustrate the relationship between tectonic plates and seismic activity.
 - Pull in [Tectonic Plates](https://github.com/fraxen/tectonicplates) data set
-- Visualize it along side the original set of data
+- Visualize it alongside the original set of data
 - Add a number of base maps (Satellite Map, Grayscale Map, Outdoors Map and Dark Map) to choose from
 - Separate out the two different data sets (earthquakes and tectonic plates) into overlays that can be turned on and off independently
 - Add layer controls to the map
-<p align="center">
-  <img src="Image">
-</p>
+
+![image](https://github.com/fabiomarcullo/leaflet-challenge/blob/main/images/Level-2.png)
 
 ---
 
